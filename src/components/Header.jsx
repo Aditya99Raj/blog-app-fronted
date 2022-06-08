@@ -12,7 +12,7 @@ const Header = ()=>{
              <Typography variant="h4" >BLOGS</Typography> 
             {!isLoggedIn && <Box display="flex">
                  <Tabs value={value} onChange={(e,val)=>setValue(val)}>
-                     <Tab LinkComponent={Link} to="/blogs" label="Allblogs"/>
+                     <Tab LinkComponent={Link} to="/" label="Allblogs"/>
                      <Tab LinkComponent={Link} to="/blogs/add" label="AddBlog"/>
                  </Tabs>
              </Box>}

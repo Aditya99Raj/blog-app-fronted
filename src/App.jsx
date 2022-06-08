@@ -23,7 +23,7 @@ function App() {
       <main>
         <Routes>
           <Route path="auth" element={<Auth/>} />
-          <Route path="blogs" element={<Blogs/>} />
+          <Route path="/" element={<Blogs/>} />
           <Route path="myBlogs" element={<UserBlog/>} />
           <Route path="/blogdetails/:id" element={<BlogDetail/>} />;
           <Route path="blogs/add" element={<AddBlog/>} />
